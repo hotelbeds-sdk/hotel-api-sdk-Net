@@ -113,7 +113,6 @@
     <Compile Include="HotelApiClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="types\HotelApiPaths.cs" />
-    <Compile Include="types\HotelApiService.cs" />
     <Compile Include="types\HotelApiVersion.cs" />
     <Compile Include="types\HotelSDKException.cs" />
   </ItemGroup>
