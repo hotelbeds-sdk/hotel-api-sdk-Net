@@ -47,7 +47,16 @@ namespace com.hotelbeds.distribution.hotel_api_sdk_demo
                 room.details = new List<RoomDetail>();
                 room.adultOf(30);
                 room.adultOf(30);
+                room.numberOfRooms = 2;
                 //room.childOf(4);                
+                avail.rooms.Add(room);
+                room = new AvailRoom();
+                room.adults = 2;
+                room.children = 0;
+                room.details = new List<RoomDetail>();
+                room.adultOf(30);
+                room.adultOf(30);
+                room.numberOfRooms = 1;
                 avail.rooms.Add(room);
                 avail.payed = Availability.Pay.AT_HOTEL;
                 //avail.ofTypes = new HashSet<hotel_api_model.auto.common.SimpleTypes.AccommodationType>();
@@ -112,6 +121,7 @@ namespace com.hotelbeds.distribution.hotel_api_sdk_demo
                 //Console.WriteLine("Availability Request:");
                 //Console.WriteLine(JsonConvert.SerializeObject(availabilityRQ, Formatting.Indented, new JsonSerializerSettings() { DefaultValueHandling = DefaultValueHandling.Ignore }));
 
+                Console.WriteLine(JsonConvert.SerializeObject(availabilityRQ, Formatting.Indented, new JsonSerializerSettings() { DefaultValueHandling = DefaultValueHandling.Ignore }));
                 AvailabilityRS responseAvail = client.doAvailability(availabilityRQ);
 
                 if (responseAvail != null && responseAvail.hotels != null && responseAvail.hotels.hotels != null && responseAvail.hotels.hotels.Count > 0)
