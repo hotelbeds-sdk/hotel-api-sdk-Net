@@ -110,7 +110,7 @@ namespace com.hotelbeds.distribution.hotel_api_sdk.helpers
                         Occupancy occupancy = new Occupancy();
                         occupancy.adults = rooms[i].adults;
                         occupancy.children = rooms[i].children;
-                        occupancy.rooms = i + 1;
+                        occupancy.rooms = rooms[i].numberOfRooms;
 
                         if (rooms[i].details != null && rooms[i].details.Count > 0 )
                         {
