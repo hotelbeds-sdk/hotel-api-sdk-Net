@@ -40,6 +40,7 @@ namespace com.hotelbeds.distribution.hotel_api_model.auto.common
             FEE
         }
 
+        [JsonConverter(typeof(StringEnumConverter))]
         public enum BookingStatus
         {
             CONFIRMED,
