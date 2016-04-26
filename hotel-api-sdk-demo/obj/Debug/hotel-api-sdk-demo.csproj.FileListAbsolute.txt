@@ -27,3 +27,17 @@ D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-sdk-demo\bin\Debug\Newt
 D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-sdk-demo\bin\Debug\System.Net.Http.Formatting.xml
 D:\Projects\Multinucleo\OneDrive\hotel-api-sdk\hotel-api-sdk-demo\obj\Debug\hotel-api-sdk-demo.csprojResolveAssemblyReference.cache
 D:\OneDrive\hotel-api-sdk\hotel-api-sdk-demo\bin\Debug\hotel-api-sdk-demo.exe.config
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\hotel-api-sdk-demo.exe.config
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\hotel-api-sdk-demo.exe
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\hotel-api-sdk-demo.pdb
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\com.hotelbeds.distribution.hotel_api_model.dll
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\com.hotelbeds.distribution.hotel_api_sdk.dll
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\System.Net.Http.Formatting.dll
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\com.hotelbeds.distribution.hotel_api_model.pdb
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\com.hotelbeds.distribution.hotel_api_sdk.pdb
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\Newtonsoft.Json.xml
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\bin\Debug\System.Net.Http.Formatting.xml
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\obj\Debug\hotel-api-sdk-demo.csprojResolveAssemblyReference.cache
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\obj\Debug\hotel-api-sdk-demo.exe
+D:\workspace\SDKs\netFork\hotel-api-sdk-Net\hotel-api-sdk-demo\obj\Debug\hotel-api-sdk-demo.pdb

@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/hotel-api-sdk/bin/Debug
+/hotel-api-model/bin/Debug
+/.vs/hotel-api-sdk/v14
+/hotel-api-sdk-demo/Cancelacion.cs

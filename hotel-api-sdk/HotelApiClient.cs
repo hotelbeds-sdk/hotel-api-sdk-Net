@@ -32,7 +32,7 @@ namespace com.hotelbeds.distribution.hotel_api_sdk
         private readonly HotelApiVersion version;        
         private readonly string apiKey;
         private readonly string sharedSecret;
-        private string environtment;
+        private string environment;
 
         public HotelApiClient()
         {
@@ -109,10 +109,10 @@ namespace com.hotelbeds.distribution.hotel_api_sdk
             try
             {
                 string returnValue = string.Empty;
-                environtment = ConfigurationManager.AppSettings.Get("ENVIRONTMENT");
-                if (!String.IsNullOrEmpty(environtment))
+                environment = ConfigurationManager.AppSettings.Get("ENVIRONMENT");
+                if (!String.IsNullOrEmpty(environment))
                 {
-                    returnValue = ConfigurationManager.AppSettings.Get(environtment);
+                    returnValue = ConfigurationManager.AppSettings.Get(environment);
                 }
                 return returnValue;
             }
