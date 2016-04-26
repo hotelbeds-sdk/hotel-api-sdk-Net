@@ -42,13 +42,12 @@ namespace com.hotelbeds.distribution.hotel_api_sdk_demo
                 avail.language = "CAS";
                 avail.shiftDays = 2;
                 AvailRoom room = new AvailRoom();
-                room.adults = 2;
-                room.children = 0;
+                room.adults = 1;
+                room.children = 1;
                 room.details = new List<RoomDetail>();
                 room.adultOf(30);
-                room.adultOf(30);
-                room.numberOfRooms = 2;
-                //room.childOf(4);                
+                room.childOf(4);
+                room.numberOfRooms = 1;
                 avail.rooms.Add(room);
                 room = new AvailRoom();
                 room.adults = 2;
@@ -56,9 +55,9 @@ namespace com.hotelbeds.distribution.hotel_api_sdk_demo
                 room.details = new List<RoomDetail>();
                 room.adultOf(30);
                 room.adultOf(30);
-                room.numberOfRooms = 1;
+                room.numberOfRooms = 2;
                 avail.rooms.Add(room);
-                avail.payed = Availability.Pay.AT_HOTEL;
+                avail.payed = Availability.Pay.AT_WEB;
                 //avail.ofTypes = new HashSet<hotel_api_model.auto.common.SimpleTypes.AccommodationType>();
                 //avail.ofTypes.Add(hotel_api_model.auto.common.SimpleTypes.AccommodationType.HOTEL);
                 //avail.ofTypes.Add(hotel_api_model.auto.common.SimpleTypes.AccommodationType.APARTMENT);
@@ -118,10 +117,9 @@ namespace com.hotelbeds.distribution.hotel_api_sdk_demo
                 if (availabilityRQ == null)
                     throw new Exception("Availability RQ can't be null", new ArgumentNullException());
 
-                //Console.WriteLine("Availability Request:");
-                //Console.WriteLine(JsonConvert.SerializeObject(availabilityRQ, Formatting.Indented, new JsonSerializerSettings() { DefaultValueHandling = DefaultValueHandling.Ignore }));
-
+                Console.WriteLine("Availability Request:");
                 Console.WriteLine(JsonConvert.SerializeObject(availabilityRQ, Formatting.Indented, new JsonSerializerSettings() { DefaultValueHandling = DefaultValueHandling.Ignore }));
+                                
                 AvailabilityRS responseAvail = client.doAvailability(availabilityRQ);
 
                 if (responseAvail != null && responseAvail.hotels != null && responseAvail.hotels.hotels != null && responseAvail.hotels.hotels.Count > 0)
