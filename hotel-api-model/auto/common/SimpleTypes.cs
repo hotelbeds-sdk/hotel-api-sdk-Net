@@ -54,7 +54,7 @@ namespace com.hotelbeds.distribution.hotel_api_model.auto.common
 
         public enum ChannelType { B2B, B2C, META, NEWSLETTER };        
 
-        public enum DeviceType { MOBILE, WEB, TABLET };        
+        public enum DeviceType { MOBILE, WEB, TABLET };
 
         public enum RateType { BOOKABLE, RECHECK };        
 

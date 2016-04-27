@@ -10,7 +10,7 @@ namespace com.hotelbeds.distribution.hotel_api_model.auto.model
         public string rateKey { get; set; }
         public string rateClass { get; set; }
         [JsonProperty("rateType", Required = Required.Always)]
-        [JsonConverter(typeof(JSonConverters.DeviceTypeConverter))]
+        [JsonConverter(typeof(JSonConverters.RateTypeConverter))]
         public SimpleTypes.RateType? rateType { get; set; }
         public decimal net { get; set; }
         public decimal discount { get; set; }
